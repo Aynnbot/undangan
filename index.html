@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- COVER -->
+<section class="cover" id="cover">
+    <div class="overlay">
+        <h1>Undangan Pernikahan</h1>
+        <h2>Widya & Arya</h2>
+        <p>Kepada Yth: Tamu Undangan</p>
+        <button onclick="openInvitation()">Buka Undangan</button>
+    </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<section class="content" id="content">
+
+    <!-- PASANGAN -->
+    <div class="section">
+        <img src="img/pasangan.jpg" class="photo">
+        <h2>Widya & Arya</h2>
+        <p>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Anda...</p>
+    </div>
+
+    <!-- DETAIL ACARA -->
+    <div class="section">
+        <h3>Akad Nikah</h3>
+        <p>Sabtu, 20 April 2026</p>
+        <p>08.00 WIB</p>
+
+        <h3>Resepsi</h3>
+        <p>Sabtu, 20 April 2026</p>
+        <p>11.00 WIB</p>
+    </div>
+
+    <!-- COUNTDOWN -->
+    <div class="section">
+        <h3>Menuju Hari Bahagia</h3>
+        <div id="countdown"></div>
+    </div>
+
+    <!-- GALERI -->
+    <div class="section galeri">
+        <img src="img/galeri1.jpg">
+        <img src="img/galeri2.jpg">
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Terima kasih atas doa & restunya ❤️</p>
+    </footer>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
